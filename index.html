@@ -1,0 +1,287 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap Booking Hotel</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <section id="header">
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg">
+      <div class="container">
+        <a class="navbar-brand" href="#"><img src="./assets/logo.png" alt=""></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link" aria-current="page" href="#">Beranda</a>
+            <a class="nav-link" href="#populer">Populer</a>
+            <a class="nav-link" href="#promo">Promo</a>
+            <a class="btn btn-primary" href="#">Download App</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+
+    <!-- hero -->
+    <div class="hero mt-5">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <p>Mudah dan terjangkau untuk pemesanan hotel pilihanmu</p>
+            <h1>Booking hotel online dengan <br> mudah dan harga terjangkau</h1>
+            <button class="btn btn-primary mt-3">Ayo Cari!</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<body class="bg-light">
+
+  <div class="container my-5">
+    <div class="form-section">
+      <h5 class="form-title mb-4">Hotel yang Terakhir Dilihat</h5>
+
+      <form>
+        <div class="mb-3">
+          <label for="lokasi" class="form-label">Kota, tujuan, atau nama hotel</label>
+          <input type="text" class="form-control" id="lokasi" placeholder="Kota, hotel, tempat wisata">
+        </div>
+
+        <div class="row">
+          <div class="col-md-4 mb-3">
+            <label for="checkin" class="form-label">Check-in</label>
+            <input type="date" class="form-control" id="checkin" value="2025-06-05">
+          </div>
+          <div class="col-md-4 mb-3">
+            <label for="durasi" class="form-label">Durasi</label>
+            <select class="form-select" id="durasi">
+              <option selected>1 malam</option>
+              <option>2 malam</option>
+              <option>3 malam</option>
+            </select>
+          </div>
+          <div class="col-md-4 mb-3">
+            <label for="checkout" class="form-label">Check-out</label>
+            <input type="date" class="form-control" id="checkout" value="2025-06-06">
+          </div>
+        </div>
+
+        <div class="mb-3">
+          <label for="tamu" class="form-label">Tamu dan Kamar</label>
+          <select class="form-select" id="tamu">
+            <option selected>2 Dewasa, 0 Anak, 1 Kamar</option>
+            <option>1 Dewasa, 0 Anak, 1 Kamar</option>
+            <option>2 Dewasa, 1 Anak, 1 Kamar</option>
+          </select>
+        </div>
+
+        <div class="mb-3 text-primary">
+          <i class="bi bi-cash-coin"></i> Bayar di Hotel
+        </div>
+
+        <button type="submit" class="btn btn-cari w-100">Cari Hotel</button>
+      </form>
+    </div>
+  </div>
+
+  <!-- promo -->
+  <div class="promo1 mt-5">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <img src="./assets/img-promo1.png" alt="" width="100%">
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <section id="populer">
+    <div class="container mt-5">
+      <h5>Yang populer di telnest</h5>
+      <div class="row mt-3">
+        <div class="col-lg-3">
+          <div class="card">
+            <img src="./assets/hotel1.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Amris Hotel</h5>
+              <p class="card-text">Pelembang.</p>
+              <p class="text-muted">👥 1.234 pengunjung</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="card">
+            <img src="./assets/hotel2.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Amris Hotel</h5>
+              <p class="card-text">Pelembang.</p>
+              <p class="text-muted">👥 1.000 pengunjung</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3">
+          <div class="card">
+            <img src="./assets/hotel3.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Amris Hotel</h5>
+              <p class="card-text">Pelembang.</p>
+              <p class="text-muted">👥 1.500 pengunjung</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="card">
+            <img src="./assets/hotel4.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Amris Hotel</h5>
+              <p class="card-text">Pelembang.</p>
+              <p class="text-muted">👥 2.234 pengunjung</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <!-- promo -->
+  <section id="promo">
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col-lg-4">
+          <h1>promo<br>Terbaik</h1>
+          <button class="btn btn-primary">Pesan Sekarang</button>
+        </div>
+        <div class="col-lg-4">
+          <img src="./assets/img-promo2.png" alt="" width="100%">
+        </div>
+        <div class="col-lg-4">
+          <img src="./assets/img-promo3.png" alt="" width="100%">
+        </div>
+      </div>
+    </div>
+  </section>
+    <!-- akomodasi hotel  -->
+<div class="container my-5">
+  <h3 class="fw-bold">Nginep nyaman, banyak pilihan</h3>
+  <p class="text-muted">Mau buat me time ataupun pergi ramean, bebas pilih tempat nginep yang pas dengan kebutuhanmu.</p>
+
+  <!-- Scrollable Cards -->
+  <div class="scroll-container">
+    <div class="accommodation-card">
+      <img src="https://img.icons8.com/color/96/building.png" alt="Apartemen" class="accommodation-icon">
+      <div><strong>Apartemen</strong></div>
+    </div>
+    <div class="accommodation-card">
+      <img src="https://img.icons8.com/color/96/cottage.png" alt="Vila" class="accommodation-icon">
+      <div><strong>Vila</strong></div>
+    </div>
+    <div class="accommodation-card">
+      <img src="https://img.icons8.com/color/96/hotel.png" alt="Hotel Budget" class="accommodation-icon">
+      <div><strong>Hotel Budget</strong></div>
+    </div>
+    <div class="accommodation-card">
+      <img src="https://img.icons8.com/color/96/tourist-shelter.png" alt="Penginapan Unik" class="accommodation-icon">
+      <div><strong>Penginapan Unik</strong></div>
+    </div>
+    <div class="accommodation-card">
+      <img src="https://img.icons8.com/color/96/camping-tent.png" alt="Glamping" class="accommodation-icon">
+      <div><strong>Glamping</strong></div>
+    </div>
+    <div class="accommodation-card">
+      <img src="https://img.icons8.com/color/96/bed.png" alt="Guest House" class="accommodation-icon">
+      <div><strong>Guest House</strong></div>
+    </div>
+  </div>
+</div>
+  <!-- artikel -->
+  <div class="artikel mt-5">
+    <div class="container">
+      <div class="row d-flex align-items-center">
+        <div class="col-lg-4">
+          <img src="./assets/img-artikel.png" alt="" width="100%">
+        </div>
+        <div class="col-lg-8">
+          <h1>
+            Penawaran ekslusif penginapan hanya di aplikasi!</h1>
+          <p>Dapatkan penawaran ekslusif dan promo diskon lainnya hanya di aplikasi kami.</p>
+          <img src="./assets/icons/ic-getplayapp.png" alt="" width="250px">
+        </div>
+      </div>
+    </div>r
+  </div>
+
+  <div class="container my-5">
+    <h2 class="text-center mb-4">Kontak Kami</h2>
+    <div class="row">
+
+      <!-- Form Kontak -->
+      <div class="col-md-6">
+        <form>
+          <div class="mb-3">
+            <label for="nama" class="form-label">Nama</label>
+            <input type="text" class="form-control" id="nama" placeholder="Nama Anda">
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label">Email</label>
+            <input type="email" class="form-control" id="email" placeholder="email@contoh.com">
+          </div>
+          <div class="mb-3">
+            <label for="pesan" class="form-label">Pesan</label>
+            <textarea class="form-control" id="pesan" rows="4" placeholder="Tulis pesan Anda di sini..."></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Kirim</button>
+        </form>
+      </div>
+
+      <!-- Info Kontak -->
+      <div class="col-md-6">
+        <h5>Alamat</h5>
+        <p>Jl. Jenderal Sudirman No.123, Palembang, Indonesia</p>
+        <h5>Email</h5>
+        <p>info@amrishotel.com</p>
+        <h5>Telepon</h5>
+        <p>(0711) 123-4567</p>
+
+        <!-- Google Maps Embed -->
+        <div class="mt-3">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15931.840358883023!2d104.7458033!3d-2.9760734!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e3b757dbfa0541d%3A0x6ae7b9a5fdc8166d!2sPalembang%2C%20Kota%20Palembang!5e0!3m2!1sid!2sid!4v1689982383243"
+            width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy">
+          </iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- footer -->
+  <footer>
+    <div class="container mt-5 text-center">
+      <hr>
+      <p>&copy; Copyright, Telnest 2025 | All rights reserved</p>
+    </div>
+  </footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
