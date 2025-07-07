@@ -39,6 +39,68 @@
             border: none;
             box-shadow: 0 0 4px 4px rgba(0, 0, 0, 0.25);
         }
+            body {
+      background-color: #ffffff; /* background putih */
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    .pricing-card {
+      border-radius: 12px;
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.08);
+      padding: 24px;
+      background-color: #f9f9f9;
+    }
+
+    .badge-top {
+      font-weight: bold;
+      padding: 6px 12px;
+      border-radius: 20px;
+      font-size: 0.9rem;
+      display: inline-block;
+      margin-bottom: 16px;
+    }
+
+    .btn-pink {
+      background-color: #ffc2cc;
+      color: black;
+      font-weight: 600;
+      border: none;
+    }
+
+    .btn-pink:hover {
+      background-color: #ffb0bd;
+    }
+
+    .btn-blue {
+      background-color: #d6e4ff;
+      color: #003399;
+      font-weight: 600;
+      border: none;
+    }
+
+    .btn-yellow {
+      background-color: #ffe58f;
+      color: #664d03;
+      font-weight: 600;
+      border: none;
+    }
+
+    .btn-purple {
+      background-color: #e0cfff;
+      color: #4c2885;
+      font-weight: 600;
+      border: none;
+    }
+
+    .list-unstyled li::before {
+      content: "• ";
+      color: #000;
+    }
+
+    .card-title {
+      font-weight: 700;
+      font-size: 1.5rem;
+    }
 
         /* mobile screen */
         @media (max-width: 992px) {
