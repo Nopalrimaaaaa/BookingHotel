@@ -1,54 +1,9 @@
- .form-section {
-      max-width: 800px;
-      margin: auto;
-      padding: 30px;
-      background-color: #fff;
-      border-radius: 12px;
-      box-shadow: 0 0 20px rgba(0,0,0,0.1);
-    }
-    .form-title {
-      font-weight: bold;
-      color: #007bff;
-    }
-    .btn-cari {
-      background-color: #ff5a00;
-      color: white;
-    }
-#header {
-            background-image: url(./assets/img-hero.png);
-            background-size: cover;
-            height: 500px;
-            color: white;
-        }
-
-        .navbar .navbar-nav {
-            margin-left: auto;
-        }
-
-        .navbar-nav .nav-link {
-            color: white;
-            margin-right: 20px;
-        }
-
-        .navbar-brand img {
-            width: 130px;
-        }
-
-        #populer .card {
-            width: 100%;
-            border: none;
-            box-shadow: 0 0 4px 4px rgba(0, 0, 0, 0.25);
-        }
-            body {
-      background-color: #ffffff; /* background putih */
-      font-family: 'Segoe UI', sans-serif;
-    }
-
+  
     .pricing-card {
       border-radius: 12px;
-      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.08);
+      box-shadow: 0 8px 16px rgba(48, 42, 237, 0.08);
       padding: 24px;
-      background-color: #f9f9f9;
+      background-color: #68fcfc;
     }
 
     .badge-top {
@@ -101,6 +56,47 @@
       font-weight: 700;
       font-size: 1.5rem;
     }
+    .form-section {
+      max-width: 800px;
+      margin: auto;
+      padding: 30px;
+      background-color: #fff;
+      border-radius: 12px;
+      box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    }
+    .form-title {
+      font-weight: bold;
+      color: #007bff;
+    }
+    .btn-cari {
+      background-color: #ff5a00;
+      color: white;
+    }
+#header {
+            background-image: url(./assets/img-hero.png);
+            background-size: cover;
+            height: 500px;
+            color: white;
+        }
+
+        .navbar .navbar-nav {
+            margin-left: auto;
+        }
+
+        .navbar-nav .nav-link {
+            color: white;
+            margin-right: 20px;
+        }
+
+        .navbar-brand img {
+            width: 130px;
+        }
+
+        #populer .card {
+            width: 100%;
+            border: none;
+            box-shadow: 0 0 4px 4px rgba(0, 0, 0, 0.25);
+        }
 
         /* mobile screen */
         @media (max-width: 992px) {
@@ -171,3 +167,49 @@
     .scroll-container::-webkit-scrollbar {
       display: none; /* Chrome */
     }
+    /* Footer Styling */
+footer {
+  background: linear-gradient(135deg, #f8f9fa, #e9ecef);
+  color: #343a40;
+  font-size: 0.95rem;
+  border-top: 1px solid #dee2e6;
+}
+
+footer h5,
+footer h6 {
+  font-weight: 700;
+  color: #212529;
+}
+
+footer p {
+  color: #6c757d;
+  margin-bottom: 8px;
+}
+
+footer ul {
+  padding-left: 0;
+}
+
+footer ul li {
+  margin-bottom: 6px;
+}
+
+footer a {
+  color: #495057;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+footer a:hover {
+  color: #0d6efd;
+  text-decoration: underline;
+}
+
+/* Copyright text */
+footer .text-center {
+  border-top: 1px solid #ced4da;
+  padding-top: 15px;
+  margin-top: 25px;
+  font-size: 0.85rem;
+  color: #868e96;
+}
